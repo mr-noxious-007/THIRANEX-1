@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         try {
 
-            const response = await fetch("https://your-backend.onrender.com/add-project", {
+            const response = await fetch("https://thiranex-1.onrender.com/add-project", {
 
                 method: "POST",
 
