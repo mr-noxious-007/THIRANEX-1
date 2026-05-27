@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umesh Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+
+    <div class="sidebar">
+
+        <h2 class="logo">Umesh</h2>
+
+        <ul>
+            <li><a href="#home"><i class='bx bx-home'></i> Home</a></li>
+            <li><a href="#about"><i class='bx bx-user'></i> About</a></li>
+            <li><a href="#skills"><i class='bx bx-code-alt'></i> Skills</a></li>
+            <li><a href="#projects"><i class='bx bx-folder'></i> Projects</a></li>
+            <li><a href="#contact"><i class='bx bx-envelope'></i> Contact</a></li>
+        </ul>
+
+    </div>
+
+    <!-- Main Content -->
+
+    <div class="main-content">
+
+        <!-- Hero -->
+
+        <section class="hero" id="home">
+
+            <div class="hero-text">
+                <h1>Hello, I'm <span>Umesh</span></h1>
+
+                <h3>Frontend Developer</h3>
+
+                <p>
+                    I build modern and responsive websites using
+                    HTML, CSS and JavaScript.
+                </p>
+
+                <button id="btn">Hire Me</button>
+            </div>
+
+        </section>
+
+        <!-- About -->
+
+        <section class="about" id="about">
+
+            <h2 class="heading">About Me</h2>
+
+            <div class="about-box">
+
+                <p>
+                    I am passionate about web development and
+                    creating modern user interfaces.
+                    I enjoy learning frontend technologies
+                    and building responsive websites.
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- Skills -->
+
+        <section class="skills" id="skills">
+
+            <h2 class="heading">Skills</h2>
+
+            <div class="skill">
+
+                <p>HTML</p>
+                <div class="progress">
+                    <div class="progress-bar html"></div>
+                </div>
+
+            </div>
+
+            <div class="skill">
+
+                <p>CSS</p>
+                <div class="progress">
+                    <div class="progress-bar css"></div>
+                </div>
+
+            </div>
+
+            <div class="skill">
+
+                <p>JavaScript</p>
+                <div class="progress">
+                    <div class="progress-bar js"></div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Projects -->
+
+        <section class="projects" id="projects">
+
+            <h2 class="heading">Projects</h2>
+
+            <div class="project-container">
+
+                <div class="project-card">
+                    <i class='bx bx-code-block'></i>
+
+                    <h3>Portfolio Website</h3>
+
+                    <p>
+                        Responsive personal portfolio website.
+                    </p>
+                </div>
+
+                <div class="project-card">
+                    <i class='bx bx-calculator'></i>
+
+                    <h3>Calculator</h3>
+
+                    <p>
+                        Calculator built using JavaScript.
+                    </p>
+                </div>
+
+                <div class="project-card">
+                    <i class='bx bx-game'></i>
+
+                    <h3>Game UI</h3>
+
+                    <p>
+                        Interactive game interface design.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Contact -->
+
+        <section class="contact" id="contact">
+
+            <h2 class="heading">Contact</h2>
+
+            <div class="contact-box">
+
+                <p>Email : umesh@gmail.com</p>
+
+                <p>Phone : 9876543210</p>
+
+            </div>
+
+        </section>
+
+    </div>
+    <section>
+
+    <h2>Add Project</h2>
+
+    <input type="text" id="title" placeholder="Project Title">
+
+    <input type="text" id="description" placeholder="Description">
+
+    <input type="text" id="technology" placeholder="Technology">
+
+    <input type="text" id="github" placeholder="GitHub Link">
+
+    <button id="saveBtn">Save Project</button>
+
+</section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
