@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         try {
 
-            const response = await fetch("http://localhost:5000/add-project", {
+            const response = await fetch("https://your-backend.onrender.com/add-project", {
 
                 method: "POST",
 
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             console.log(error);
 
-            alert("Error");
+            alert("Error Connecting to Backend");
 
         }
 
